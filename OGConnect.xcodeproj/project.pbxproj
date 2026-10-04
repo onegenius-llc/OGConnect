@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0367A084B714CF6429ED4983 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2D08F99A7E93A699F4253 /* Keychain.swift */; };
+		0A2A24155A01EB0F47329D17 /* KeyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D817B1316CDDB7601390070 /* KeyCodes.swift */; };
+		0A4F8F60105DBBD4B41DF667 /* ClientSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62EEEBD76E1CD6988A5E90 /* ClientSession.swift */; };
+		0C0515857D2068AB6E94124F /* MenuBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66397EF1C61BB989BEBE20B1 /* MenuBrowser.swift */; };
+		0EAD1FFB3EB372A76984FF38 /* ConnectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5562E487537968226ACB89 /* ConnectionListView.swift */; };
+		1FE9BF5ED367317C519BE4F2 /* MenuReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D08A908B381933E033AA03 /* MenuReader.swift */; };
+		20DC71A4C34846D4F722A8BC /* WindowCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276EF79C834BC0609446735 /* WindowCatalog.swift */; };
+		20F82758716CF29FE586DC7F /* WindowStreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473E1BBAF4FCC17AD83569F /* WindowStreamer.swift */; };
+		32B8A09718442607A9749B41 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2D08F99A7E93A699F4253 /* Keychain.swift */; };
+		48B58E25F1C8E0BF58F11AEF /* InputInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563CE52300B885E67A62C56 /* InputInjector.swift */; };
+		540A90AE101759443E762AC3 /* PowerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7768873D75C88CCCB9B153D6 /* PowerManager.swift */; };
+		67B91148548AAAE9D4D6FDC6 /* OGConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CFA7748D1DA10AA8B0F3E /* OGConnection.swift */; };
+		6F0610DB7AF06964BF58C41F /* OGProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A442634040819E27DBB2BD /* OGProtocol.swift */; };
+		73AD7CFD663C4CE2407F9041 /* WindowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81000AE6DF4619000BB8BF2 /* WindowListView.swift */; };
+		77FF2D6565A8F1A6E528BC62 /* AppCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4014FC08CA18FB4346B79B /* AppCatalog.swift */; };
+		78882D3D65E284E6C8C6E4A2 /* ServerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543453770C2B92B42A28A88A /* ServerController.swift */; };
+		7A29F9A16B059EEDB7E561BD /* OGProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A442634040819E27DBB2BD /* OGProtocol.swift */; };
+		8813ACACBEBAB9A327814260 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9B004E251C8610896BD0E /* StatusView.swift */; };
+		8DD30F9A164AAC973CA19B1A /* ScreenUnlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8C2D43D820732AC49F582 /* ScreenUnlocker.swift */; };
+		8E9C57E0B5AC71F2062EEA74 /* OGConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CFA7748D1DA10AA8B0F3E /* OGConnection.swift */; };
+		A16ECD169D80CB90F938DF63 /* RemoteSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EDDEE657122226C8DA8C74 /* RemoteSession.swift */; };
+		A2DA23371D3F0AA7266D88D2 /* VideoRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2A1751B090E4D170B759 /* VideoRenderer.swift */; };
+		C817B4943D94426DE95C4A11 /* OGConnectServerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F4CA3039734B6C7E23DDD0 /* OGConnectServerApp.swift */; };
+		C86ACF9DA1DF82813DE83281 /* RemoteVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF244179198B3F28AACFADD /* RemoteVideoView.swift */; };
+		CCC89473D42C870EC604E818 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF4D00F293B98D0984D8BA6 /* Permissions.swift */; };
+		D814153479DC95068F88CCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836654E482BA235EDF8923D5 /* Assets.xcassets */; };
+		D8BF528B8A1BDB07B5D80859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F381374F19C9B2621DBA87 /* Assets.xcassets */; };
+		E3FD8EA88AF89120D65E311B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C96B1B12CADE6B30D3C01E /* AppModel.swift */; };
+		EB329732297BD6F7F4BE30D9 /* ViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB9B3D373ABB060A9760C8 /* ViewerView.swift */; };
+		F131543045072535B573EA3E /* OGConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1594EA99774233706342AB31 /* OGConnectApp.swift */; };
+		FBF74D18737C4439E6B303DD /* H264Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201E5506BF970CE0F90F1467 /* H264Encoder.swift */; };
+		FEDA8A579939EA74BCDB1E36 /* AppPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8417AB7714D91AA85F66AE /* AppPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A442634040819E27DBB2BD /* OGProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGProtocol.swift; sourceTree = "<group>"; };
+		11F9B004E251C8610896BD0E /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		1594EA99774233706342AB31 /* OGConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGConnectApp.swift; sourceTree = "<group>"; };
+		201E5506BF970CE0F90F1467 /* H264Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H264Encoder.swift; sourceTree = "<group>"; };
+		2A5562E487537968226ACB89 /* ConnectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionListView.swift; sourceTree = "<group>"; };
+		33F2D08F99A7E93A699F4253 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		420440060C98D45C9166BD45 /* OGConnectServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OGConnectServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543453770C2B92B42A28A88A /* ServerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerController.swift; sourceTree = "<group>"; };
+		59C96B1B12CADE6B30D3C01E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		59F381374F19C9B2621DBA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BED0783F76FDA7A3C5DFFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E4014FC08CA18FB4346B79B /* AppCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCatalog.swift; sourceTree = "<group>"; };
+		5EF0E935EF28AC7457A6D151 /* OGConnect.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OGConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66397EF1C61BB989BEBE20B1 /* MenuBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBrowser.swift; sourceTree = "<group>"; };
+		6A3CFA7748D1DA10AA8B0F3E /* OGConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGConnection.swift; sourceTree = "<group>"; };
+		6F5A2A1751B090E4D170B759 /* VideoRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRenderer.swift; sourceTree = "<group>"; };
+		6FF4D00F293B98D0984D8BA6 /* Permissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		7276EF79C834BC0609446735 /* WindowCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCatalog.swift; sourceTree = "<group>"; };
+		7473E1BBAF4FCC17AD83569F /* WindowStreamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowStreamer.swift; sourceTree = "<group>"; };
+		7768873D75C88CCCB9B153D6 /* PowerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerManager.swift; sourceTree = "<group>"; };
+		79DB9B3D373ABB060A9760C8 /* ViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewerView.swift; sourceTree = "<group>"; };
+		81F4CA3039734B6C7E23DDD0 /* OGConnectServerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGConnectServerApp.swift; sourceTree = "<group>"; };
+		82BD5F48E2DEE8D824652B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		836654E482BA235EDF8923D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F8417AB7714D91AA85F66AE /* AppPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPickerView.swift; sourceTree = "<group>"; };
+		9D817B1316CDDB7601390070 /* KeyCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCodes.swift; sourceTree = "<group>"; };
+		B8EDDEE657122226C8DA8C74 /* RemoteSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteSession.swift; sourceTree = "<group>"; };
+		D1D8C2D43D820732AC49F582 /* ScreenUnlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenUnlocker.swift; sourceTree = "<group>"; };
+		D2D08A908B381933E033AA03 /* MenuReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuReader.swift; sourceTree = "<group>"; };
+		D563CE52300B885E67A62C56 /* InputInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputInjector.swift; sourceTree = "<group>"; };
+		D81000AE6DF4619000BB8BF2 /* WindowListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowListView.swift; sourceTree = "<group>"; };
+		EF62EEEBD76E1CD6988A5E90 /* ClientSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSession.swift; sourceTree = "<group>"; };
+		FFF244179198B3F28AACFADD /* RemoteVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteVideoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00CB77300C0521C41EE3E583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0E935EF28AC7457A6D151 /* OGConnect.app */,
+				420440060C98D45C9166BD45 /* OGConnectServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		355DEC551B0F89C191964D45 /* OGConnectServer */ = {
+			isa = PBXGroup;
+			children = (
+				5E4014FC08CA18FB4346B79B /* AppCatalog.swift */,
+				836654E482BA235EDF8923D5 /* Assets.xcassets */,
+				EF62EEEBD76E1CD6988A5E90 /* ClientSession.swift */,
+				201E5506BF970CE0F90F1467 /* H264Encoder.swift */,
+				5BED0783F76FDA7A3C5DFFC8 /* Info.plist */,
+				D563CE52300B885E67A62C56 /* InputInjector.swift */,
+				D2D08A908B381933E033AA03 /* MenuReader.swift */,
+				81F4CA3039734B6C7E23DDD0 /* OGConnectServerApp.swift */,
+				6FF4D00F293B98D0984D8BA6 /* Permissions.swift */,
+				7768873D75C88CCCB9B153D6 /* PowerManager.swift */,
+				D1D8C2D43D820732AC49F582 /* ScreenUnlocker.swift */,
+				543453770C2B92B42A28A88A /* ServerController.swift */,
+				11F9B004E251C8610896BD0E /* StatusView.swift */,
+				7276EF79C834BC0609446735 /* WindowCatalog.swift */,
+				7473E1BBAF4FCC17AD83569F /* WindowStreamer.swift */,
+			);
+			path = OGConnectServer;
+			sourceTree = "<group>";
+		};
+		4780881046819E8ABF3D3ACD /* OGConnect */ = {
+			isa = PBXGroup;
+			children = (
+				59F381374F19C9B2621DBA87 /* Assets.xcassets */,
+				82BD5F48E2DEE8D824652B71 /* Info.plist */,
+				1594EA99774233706342AB31 /* OGConnectApp.swift */,
+				7C7585ECD231452B4D501FDA /* Model */,
+				D4AD6152640ECC83604A34BA /* Net */,
+				FA9E5F60EA91D39138C7E52F /* Views */,
+			);
+			path = OGConnect;
+			sourceTree = "<group>";
+		};
+		7C7585ECD231452B4D501FDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59C96B1B12CADE6B30D3C01E /* AppModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85A7BDE824F951FB9CF88602 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				33F2D08F99A7E93A699F4253 /* Keychain.swift */,
+				6A3CFA7748D1DA10AA8B0F3E /* OGConnection.swift */,
+				01A442634040819E27DBB2BD /* OGProtocol.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		868311613BDB9543BD80925D = {
+			isa = PBXGroup;
+			children = (
+				4780881046819E8ABF3D3ACD /* OGConnect */,
+				355DEC551B0F89C191964D45 /* OGConnectServer */,
+				85A7BDE824F951FB9CF88602 /* Shared */,
+				00CB77300C0521C41EE3E583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4AD6152640ECC83604A34BA /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				B8EDDEE657122226C8DA8C74 /* RemoteSession.swift */,
+				6F5A2A1751B090E4D170B759 /* VideoRenderer.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		FA9E5F60EA91D39138C7E52F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F8417AB7714D91AA85F66AE /* AppPickerView.swift */,
+				2A5562E487537968226ACB89 /* ConnectionListView.swift */,
+				9D817B1316CDDB7601390070 /* KeyCodes.swift */,
+				66397EF1C61BB989BEBE20B1 /* MenuBrowser.swift */,
+				FFF244179198B3F28AACFADD /* RemoteVideoView.swift */,
+				79DB9B3D373ABB060A9760C8 /* ViewerView.swift */,
+				D81000AE6DF4619000BB8BF2 /* WindowListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D9EF8CE436416E9DE631CA /* OGConnectServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA7A96C8612AFC27057767D /* Build configuration list for PBXNativeTarget "OGConnectServer" */;
+			buildPhases = (
+				6E5D446F410B3BDD37130393 /* Sources */,
+				829D2405FE0D2B34592D6FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGConnectServer;
+			packageProductDependencies = (
+			);
+			productName = OGConnectServer;
+			productReference = 420440060C98D45C9166BD45 /* OGConnectServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74C95547F6B35A9C5AB38138 /* OGConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235E4D391DE776EF3F9762F8 /* Build configuration list for PBXNativeTarget "OGConnect" */;
+			buildPhases = (
+				34C2C7222FAF9A23C7CA2674 /* Sources */,
+				A7A20387BFEA8602D995E112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGConnect;
+			packageProductDependencies = (
+			);
+			productName = OGConnect;
+			productReference = 5EF0E935EF28AC7457A6D151 /* OGConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF22BD4CFEA0FD42EFB6F920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					34D9EF8CE436416E9DE631CA = {
+						DevelopmentTeam = 34WADR9GR4;
+						ProvisioningStyle = Automatic;
+					};
+					74C95547F6B35A9C5AB38138 = {
+						DevelopmentTeam = 34WADR9GR4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FEB50F46F479C7D827C28FA /* Build configuration list for PBXProject "OGConnect" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 868311613BDB9543BD80925D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 00CB77300C0521C41EE3E583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C95547F6B35A9C5AB38138 /* OGConnect */,
+				34D9EF8CE436416E9DE631CA /* OGConnectServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829D2405FE0D2B34592D6FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D814153479DC95068F88CCA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A20387BFEA8602D995E112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BF528B8A1BDB07B5D80859 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C2C7222FAF9A23C7CA2674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FD8EA88AF89120D65E311B /* AppModel.swift in Sources */,
+				FEDA8A579939EA74BCDB1E36 /* AppPickerView.swift in Sources */,
+				0EAD1FFB3EB372A76984FF38 /* ConnectionListView.swift in Sources */,
+				0A2A24155A01EB0F47329D17 /* KeyCodes.swift in Sources */,
+				32B8A09718442607A9749B41 /* Keychain.swift in Sources */,
+				0C0515857D2068AB6E94124F /* MenuBrowser.swift in Sources */,
+				F131543045072535B573EA3E /* OGConnectApp.swift in Sources */,
+				67B91148548AAAE9D4D6FDC6 /* OGConnection.swift in Sources */,
+				6F0610DB7AF06964BF58C41F /* OGProtocol.swift in Sources */,
+				A16ECD169D80CB90F938DF63 /* RemoteSession.swift in Sources */,
+				C86ACF9DA1DF82813DE83281 /* RemoteVideoView.swift in Sources */,
+				A2DA23371D3F0AA7266D88D2 /* VideoRenderer.swift in Sources */,
+				EB329732297BD6F7F4BE30D9 /* ViewerView.swift in Sources */,
+				73AD7CFD663C4CE2407F9041 /* WindowListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5D446F410B3BDD37130393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FF2D6565A8F1A6E528BC62 /* AppCatalog.swift in Sources */,
+				0A4F8F60105DBBD4B41DF667 /* ClientSession.swift in Sources */,
+				FBF74D18737C4439E6B303DD /* H264Encoder.swift in Sources */,
+				48B58E25F1C8E0BF58F11AEF /* InputInjector.swift in Sources */,
+				0367A084B714CF6429ED4983 /* Keychain.swift in Sources */,
+				1FE9BF5ED367317C519BE4F2 /* MenuReader.swift in Sources */,
+				C817B4943D94426DE95C4A11 /* OGConnectServerApp.swift in Sources */,
+				8E9C57E0B5AC71F2062EEA74 /* OGConnection.swift in Sources */,
+				7A29F9A16B059EEDB7E561BD /* OGProtocol.swift in Sources */,
+				CCC89473D42C870EC604E818 /* Permissions.swift in Sources */,
+				540A90AE101759443E762AC3 /* PowerManager.swift in Sources */,
+				8DD30F9A164AAC973CA19B1A /* ScreenUnlocker.swift in Sources */,
+				78882D3D65E284E6C8C6E4A2 /* ServerController.swift in Sources */,
+				8813ACACBEBAB9A327814260 /* StatusView.swift in Sources */,
+				20DC71A4C34846D4F722A8BC /* WindowCatalog.swift in Sources */,
+				20F82758716CF29FE586DC7F /* WindowStreamer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B13C2B88D5BAEF5ADC60872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = OGConnectServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onegenius.ogconnect.server;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68207BF04A41379B4A058F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 34WADR9GR4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A6743E6467E53623527A94F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OGConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onegenius.ogconnect;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		B95B81980D442FC742913E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OGConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onegenius.ogconnect;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C0B875E54AA8D4AB3B3E10F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 34WADR9GR4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DEE6DED3C7020EDD88E699D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = OGConnectServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onegenius.ogconnect.server;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA7A96C8612AFC27057767D /* Build configuration list for PBXNativeTarget "OGConnectServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE6DED3C7020EDD88E699D5 /* Debug */,
+				4B13C2B88D5BAEF5ADC60872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		235E4D391DE776EF3F9762F8 /* Build configuration list for PBXNativeTarget "OGConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95B81980D442FC742913E69 /* Debug */,
+				A6743E6467E53623527A94F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6FEB50F46F479C7D827C28FA /* Build configuration list for PBXProject "OGConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B875E54AA8D4AB3B3E10F2 /* Debug */,
+				68207BF04A41379B4A058F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF22BD4CFEA0FD42EFB6F920 /* Project object */;
+}
